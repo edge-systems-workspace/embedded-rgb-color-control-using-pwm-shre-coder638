@@ -39,8 +39,10 @@ void loop() {
 
     // -------- ANALOG (PWM) MODE --------
 
-    // TODO 9:
-    // Set RED brightness using analogWrite()
+    analogWrite(RED_pin, 255);   // Full brightness
+    analogWrite(GREEN_pin, 0);
+    analogWrite(BLUE_pin, 0);
+    delay(1000);
 
     // TODO 10:
     // Set GREEN brightness using analogWrite()
