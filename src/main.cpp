@@ -18,14 +18,13 @@
 
 void setup() {
 
-    // TODO 4:
-    // Initialize Serial communication (9600 baud)
+    Serial.Begin(9600);
 
-    // TODO 5:
-    // Configure RGB pins as OUTPUT
+    pinMode(RED_pin, OUTPUT);
+    pinMode(GREEN_pin, OUTPUT);
+    pinMode(BLUE_pin, OUTPUT);
 
-    // TODO 6:
-    // Print initialization message
+    Serial.println("RGB LED Initialized!");
 }
 
 void loop() {
