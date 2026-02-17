@@ -11,9 +11,9 @@
  * Demonstrates simple digital blink and PWM color cycling on three pins.
  */
 
-const uint8_t RED_pin = 9;
-const uint8_t GREEN_pin = 10;
-const uint8_t BLUE_pin = 11;
+int RED_pin = 9;
+int GREEN_pin = 10;
+int BLUE_pin = 11;
 
 /**
  * @brief Initialize serial communication and configure LED pins.
