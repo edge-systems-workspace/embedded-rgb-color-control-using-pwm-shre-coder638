@@ -44,8 +44,10 @@ void loop() {
     analogWrite(BLUE_pin, 0);
     delay(1000);
 
-    // TODO 10:
-    // Set GREEN brightness using analogWrite()
+    analogWrite(RED_pin, 0);
+    analogWrite(GREEN_pin, 255);
+    analogWrite(BLUE_pin, 0);
+    delay(1000);
 
     // TODO 11:
     // Set BLUE brightness using analogWrite()
