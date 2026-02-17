@@ -31,11 +31,11 @@ void loop() {
 
     // -------- DIGITAL MODE --------
 
-    // TODO 7:
-    // Turn ON red (digital HIGH)
+    digitalWrite(RED_pin, HIGH);
+    delay(1000);
 
-    // TODO 8:
-    // Turn OFF red
+    digitalWrite(RED_pin, LOW);
+    delay(1000);
 
     // -------- ANALOG (PWM) MODE --------
 
