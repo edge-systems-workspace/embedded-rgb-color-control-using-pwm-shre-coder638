@@ -10,8 +10,7 @@
  * and analog PWM brightness control.
  */
 
- // TODO 1:
- // Define RED pin (Use 9)
+ int RED_pin = 9;
 
  // TODO 2:
  // Define GREEN pin (Use 10)
